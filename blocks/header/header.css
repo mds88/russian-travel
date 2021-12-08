@@ -1,29 +1,30 @@
 .header {
   display: flex;
   max-width: 1184px;
+  /* width: 100%; */
   justify-content: space-between;
   margin-bottom: 56px;
 }
 
-@media screen AND (max-width: 1024px) {
+@media screen AND (max-width: 1150px) {
   .header {
-    margin-bottom: 48px;
+    margin: 0 48px 48px;
   }
 }
 
-@media screen AND (max-width: 768px) {
+@media screen AND (max-width: 896px) {
   .header {
     margin: 0 24px 48px;
   }
 }
 
-@media screen AND (min-width: 320px) {
+@media screen AND (min-width: 544px) {
   .header {
     min-width: 288px;
   }
 }
 
-@media screen AND (max-width: 320px) {
+@media screen AND (max-width: 544px) {
   .header {
     margin: 0 16px 48px;
   }

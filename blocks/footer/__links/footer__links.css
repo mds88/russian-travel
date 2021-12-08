@@ -1,0 +1,14 @@
+.footer__links {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-column-gap: 18px;
+}
+
+@media screen AND (max-width: 713px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+}
+

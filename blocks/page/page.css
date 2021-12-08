@@ -13,13 +13,13 @@
   box-sizing: border-box;
 }
 
-@media screen AND (max-width: 768px) {
+@media screen AND (max-width: 1150px) {
   .page {
     padding: 28px 0 24px;
   }
 }
 
-@media screen AND (max-width: 320px) {
+@media screen AND (max-width: 544px) {
   .page {
     padding: 16px 0 24px;
   }

@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    margin-top: 92px;
+}
+
+@media screen AND (max-width: 1150px) {
+    .footer {
+        width: calc(100% - 96px);
+        margin: 92px 48px 0;
+    }
+  }
+  
+@media screen AND (max-width: 876px) {
+    .footer {
+        width: calc(100% - 48px);
+        margin: 88px 24px 0;
+    }
+}
+
+@media screen AND (max-width: 713px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin: 64px 0 0 16px;
+    }
+}

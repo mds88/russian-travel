@@ -2,28 +2,24 @@
     display: inline-flex;
     flex-direction: column;
     max-width: 690px;
+    min-width: 288px;
     margin-left: 100px;
 }
 
-@media screen AND (max-width: 1024px) {
+@media screen AND (max-width: 1150px) {
     .intro {
-        margin-left: 0;
+        margin-left: 48px;
     }
 }
 
-@media screen AND (max-width: 768px) {
+@media screen AND (max-width: 896px) {
     .intro {
         margin: 0 24px 0;
-    }
-}
-
-@media screen AND (min-width: 768px) {
-    .intro {
         max-width: 720px;
     }
 }
 
-@media screen AND (max-width: 320px) {
+@media screen AND (max-width: 544px) {
     .intro {
         margin: 0 16px 0;
     }

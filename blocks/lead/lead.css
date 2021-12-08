@@ -5,3 +5,15 @@
     flex-direction: column;
     text-align: center;
 }
+
+@media screen AND (max-width: 1080px) {
+    .lead {
+      margin: 0 48px;
+    }
+  }
+
+  @media screen AND (max-width: 896px) {
+    .lead {
+      margin: auto;
+    }
+  }
