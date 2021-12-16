@@ -28,7 +28,6 @@
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__list/intro__list.css');
 @import url('../blocks/intro/__span/intro__span.css');
-@import url('../blocks/intro/__span/_font-weight/intro__span_font-weight_bold.css');
 
 /* PHOTO-GRID */
 @import url('../blocks/photo-grid/photo-grid.css');

@@ -16,19 +16,15 @@
 @media screen AND (max-width: 768px) {
     .place__title {
         font-size: 42px;
+        line-height: 46px;
     }
-}
-
-@media screen AND (max-width: 378px) {
-    .place__title {
-        font-size: 32px;
-    }
-    
 }
 
 @media screen AND (max-width: 376px) {
     .place__title {
         width: calc(100% - 32px);
         margin: 0 16px;
+        font-size: 32px;
+        line-height: 35px;
     }
 }
